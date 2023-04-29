@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+}
+
+main > div:not(.active) {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 400px;
+  }
+}

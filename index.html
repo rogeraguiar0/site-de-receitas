@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <script defer src="./assets/js/paginar.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Página de receitas</title>
+</head>
+
+<body>
+
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="container-fluid">
+
+      <h1 class="h2">Página de receitas</h1>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item d-flex m-2 align-items-center">
+            <button class="btn btn-outline-dark" onclick="paginar(1)" type="button">1</button>
+            <p class="d-block d-sm-none mx-4 mb-0">Lasanha</p>
+          </li>
+          <li class="nav-item d-flex m-2 align-items-center">
+            <button class="btn btn-outline-dark" onclick="paginar(2)" type="button">2</button>
+            <p class="d-block d-sm-none mx-4 mb-0">Palha Italiana</p>
+          </li>
+          <li class="nav-item d-flex m-2 align-items-center">
+            <button class="btn btn-outline-dark" onclick="paginar(3)" type="button">3</button>
+            <p class="d-block d-sm-none mx-4 mb-0">Macarrão Parafuso</p>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <div class="main">
+
+    <main class="text-dark">
+
+      <div id="pag1" class="container-fluid active mt-4">
+        <div class="d-flex flex-column align-items-center flex-md-row-reverse">
+          <div>
+            <h2 class="h3 text-center my-2">Lasanha</h2>
+            <img src="./assets/images/lasanha.jpg" alt="Foto da receita - Lasanha">
+          </div>
+
+          <p class="lead p-3">
+            A palavra lasanha provém da grega "lasanon" que significa pote de quatro. O termo foi depois emprestado
+            pelos romanos como "lasanum" para significar pote de cozinhar. Os italianos usaram a palavra para definir o
+            prato onde, hoje se sabe, era feita a Lasanha.
+
+            Apesar de tradicionalmente se acreditar que a lasanha é um prato tipicamente originado na Itália, tem-se
+            evidências de que há um prato muito similar conhecido como "loseyns" (lê-se lasan), comido na corte do Rei
+            Ricardo II no século XIV. Esta receita também figurou no primeiro livro de receitas da Inglaterra.
+
+            A lasanha foi primeiro documentada no século XIII, quando foi usado num prato às camadas, esta versão mais
+            antiga não incluia tomate, pois este ainda não tinha sido descoberto pelos Europeus.
+          </p>
+        </div>
+
+        <h3 class="mt-4">Ingredientes:</h3>
+
+        <ul>
+          <li class="item">
+            500g de macarrão de lasanha
+          </li>
+          <li class="item">
+            300g de calabresa processada
+          </li>
+          <li class="item">
+            1 cebola picada
+          </li>
+          <li class="item">
+            2 colheres de sopa de azeite
+          </li>
+          <li class="item">
+            3 dentes de alho
+          </li>
+          <li class="item">
+            500g de carne moída
+          </li>
+          <li class="item">
+            Sal a gosto
+          </li>
+          <li class="item">
+            Pimenta a gosto
+          </li>
+          <li class="item">
+            Coentro a gosto
+          </li>
+          <li class="item">
+            3 xícaras de molho de tomate
+          </li>
+          <li class="item">
+            600g de queijo muçarela fatiado
+          </li>
+          <li class="item">
+            5 colheres de queijo parmesão ralado
+          </li>
+        </ul>
+
+        <h3 class="mt-4">Modo de preparo</h3>
+
+        <ul>
+          <li class="item">
+            Cozinhar a massa da Lasanha conforme instruções da embalagem. Escorrer e reservar.
+          </li>
+          <li class="item">
+            Em uma panela colocar o azeite, a cebola e o alho deixando refogar bem.
+          </li>
+          <li class="item">
+            Adicionar a carne moída e em seguida a calabresa processada. Colocar 2 xícaras do molho de tomate. Temperar
+            a
+            gosto com coentro picado, sal e pimenta do reino. Deixar cozinhar e reservar.
+          </li>
+          <li class="item">
+            Montagem da lasanha:
+          </li>
+          <li class="item">
+            Colocar na travessa um pouco do molho de tomate.
+          </li>
+          <li class="item">
+            Dispor a massa da lasanha cozida
+          </li>
+          <li class="item">
+            Colocar o ragu de carne com calabresa
+          </li>
+          <li class="item">
+            Cobrir com queijo muçarela fatiado
+          </li>
+          <li class="item">
+            Colocar camada de massa de lasanha cozida
+          </li>
+          <li class="item">
+            Cobrir com ragu de carne com calabresa
+          </li>
+          <li class="item">
+            Cobrir com queijo muçarela fatiado
+          </li>
+          <li class="item">
+            Colocar camada de massa de lasanha cozida
+          </li>
+          <li class="item">
+            Colocar ragu de carne com calabresa
+          </li>
+          <li class="item">
+            Dispor a massa de lasanha cozida
+          </li>
+          <li class="item">
+            Cobrir com queijo muçarela fatiado
+          </li>
+          <li class="item">
+            Dispor uma xícara de molho de tomate
+          </li>
+          <li class="item">
+            Finalizar com queijo parmesão ralado
+          </li>
+          <li class="item">
+            Levar para o forno pré aquecido a 180 graus por 20 minutos ou até derreter e dourar o queijo levemente.
+          </li>
+          <li class="item">
+            Servir em seguida.
+          </li>
+        </ul>
+
+      </div>
+
+      <div id="pag2" class="container-fluid mt-4">
+        <div class="d-flex flex-column align-items-center flex-md-row-reverse">
+          <div>
+            <h2 class="h3 text-center my-2">Palha Italiana</h2>
+            <img src="./assets/images/pItaliana.webp" alt="Foto da receita - Palha Italiana">
+          </div>
+
+          <p class="lead p-3">
+            É um doce genuinamente brasileiro e sua provável origem está no sul do país. Assim como o brigadeiro, a
+            palha é feita de leite condensado, manteiga e chocolate. A palha, diferentemente do brigadeiro, sofreu
+            influência da culinária portuguesa e italiana por uma questão histórica, devido aos imigrantes italianos e
+            portugueses que foram para o sul do Brasil quando vieram.
+
+            A origem do nome “palha” é o doce salaminho de chocolate, doce português que além do biscoito Maria leva
+            amêndoas sem pele, ou seja, sem palha. No processo de preparação do doce, quando a amêndoa é torrada e
+            friccionada, solta a sua palha, marcando assim o nome do doce que influenciou. Acredita-se também que a
+            parte “italiana” do nome é advinda da comunidade italiana que vive no sul.
+          </p>
+        </div>
+
+        <h3 class="mt-4">Ingredientes:</h3>
+
+        <ul>
+          <li class="item">
+            2 latas de leite condensado
+          </li>
+          <li class="item">
+            3 colheres de sopa de margarina
+          </li>
+          <li class="item">
+            1 copo de achocolatado em pó
+          </li>
+          <li class="item">
+            1 pacote de biscoito maizena
+          </li>
+          <li class="item">
+            600g de chocolate picado
+          </li>
+          <li class="item">
+            Açúcar de confeiteiro para decorar
+          </li>
+        </ul>
+
+        <h3 class="mt-4">Modo de preparo</h3>
+
+        <ul>
+          <li class="item">
+            Em fogo médio, misture o leite condensado, a margarina, achocolatado e os pedaços de chocolate na panela até
+            formar um brigadeiro.
+          </li>
+          <li class="item">
+            Triture os biscoitos maizena e adicione na panela com o brigadeiro ainda quente.
+          </li>
+          <li class="item">
+            Forre uma fôrma retangular com filme plástico e despeje a massa.
+          </li>
+          <li class="item">
+            Cubra a forma com filme plástico e leve para gelar por uma hora.
+          </li>
+          <li class="item">
+            Desenforme e corte a massa em quadradinhos.
+          </li>
+          <li class="item">
+            Finalize com o açúcar
+          </li>
+        </ul>
+
+      </div>
+
+      <div id="pag3" class="container-fluid mt-4">
+        <div class="d-flex flex-column align-items-center flex-md-row-reverse">
+          <div>
+            <h2 class="h3 text-center my-2">Macarrão Parafuso</h2>
+            <img src="./assets/images/macarrão.jpg" alt="Foto da receita - Macarrão Parafuso com molho branco">
+          </div>
+
+          <p class="lead p-3">
+            Macarrão (em italiano plural: maccheroni, singular: maccherone) é um tipo de massa alimentícia com o
+            formato de tubos curtos, em que se incluem os penne e os cotovelos. No entanto, em algumas regiões do
+            Brasil, o termo "macarrão" é usado para se referir a qualquer tipo de massa alimentícia, desde o espaguete
+            às letras e outras formas usadas em vários cozidos e sopas.
+
+            Segundo uma antiga teoria, teria sido o explorador italiano Marco Polo a levar o macarrão da China para a
+            Itália durante o século XIII. Hoje sabe-se que as massas alimentícias já eram conhecidas na Europa muito
+            antes disso.
+          </p>
+        </div>
+
+        <h3 class="mt-4">Ingredientes:</h3>
+
+        <ul>
+          <li class="item">
+            1 pacote de macarrão parafuso
+          </li>
+          <li class="item">
+            Brócolis
+          </li>
+          <li class="item">
+            500g de bacon em cubos
+          </li>
+          <li class="item">
+            1 colher e meia de margarina
+          </li>
+          <li class="item">
+            Meia xícara de farinha de trigo
+          </li>
+          <li class="item">
+            Meia cebola picada em cubos
+          </li>
+          <li class="item">
+            1 xícara de leite
+          </li>
+          <li class="item">
+            Sal a gosto
+          </li>
+          <li class="item">
+            Pimenta a gosto
+          </li>
+          <li class="item">
+            Parmesão ralado a gosto
+          </li>
+        </ul>
+
+        <h3 class="mt-4">Modo de preparo</h3>
+
+        <ul>
+          <li class="item">
+            Cozinhe o brócolis até o talo ficar macio, escorra e reserve.
+          </li>
+          <li class="item">
+            Cozinhe o macarrão, escorra e reserve.
+          </li>
+          <li class="item">
+            Em uma panela colocar a margarina para derreter junto com a cebola e 2 dentes de alho amassados e refogar.
+            Depois colocar a farinha de trigo e mexer até soltar da panela.
+          </li>
+          <li class="item">
+            Vá colocando leite aos poucos e mexendo sempre para não empelotar, acrescente leite até dissolver toda a
+            farinha. Por último colocar o parmesão, sal, pimenta e noz moscada a gosto, lembrando que o bacon é salgado.
+          </li>
+          <li class="item">
+            Em uma panela fritar o bacon (não precisa colocar óleo pois o bacon solta gordura).Quando estiver frito,
+            adicionar o restante do alho amassado e deixar fritar só um pouco.
+          </li>
+          <li class="item">
+            Colocar o brócolis e deixar fritar por 1 minuto para apurar o sabor no brócolis.
+          </li>
+          <li class="item">
+            Colocar o macarrão e mexer.
+          </li>
+          <li class="item">
+            Por último adicionar o molho branco e mexer.
+          </li>
+          <li class="item">
+            Colocar em uma travessa de vidro e servir.
+          </li>
+        </ul>
+
+      </div>
+
+    </main>
+
+
+  </div>
+
+  <footer class="bg-dark text-light py-3">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-4 text-md-start text-center">
+          <p>Desenvolvido por <strong>Róger Aguiar</strong></p>
+        </div>
+        <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
+          <p>Links de referência</p>
+          <a href="https://vitarella.com.br/receitas/" target="_blank" class="me-4">Receitas</a>
+          <a href="https://pt.wikipedia.org/" target="_blank">Histórias</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
